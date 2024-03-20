@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alexander I. Agu">
+        <meta name="discription" content="A QuizApp where users will be asked a set of questions to prove they are  smart">
+        <title>QuizApp</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <!-- header contains the logo image and WEB navigation -->
+        <header class="header">
+            <div class="logo">
+                <!-- insert logo image -->
+                <img src="img/Logo.png" alt="">
+                <h2>QuizApp</h2>
+            </div>
+
+            <nav class="navbar dropdown">
+                <button class="dropbtn">down</button>
+                <ul class="nav-list dropdown-content">
+                    
+                    <li>
+                        <a href="#" class="nav-item">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-item">About</a>
+                    </li>
+                    <li>
+                        <a href="#playnow" class="nav-item">Start Quiz</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <br>
+
+        <section class="hero">
+            <h1 class="hero-h1">Welcome to Quiz App</h1>
+
+            <br>
+
+            <p>
+                You have a chance to prove to yourself and to the whole world that you are actually smart. A lot will let this opportunity go by but you are different. <br>
+                When i look at you i see a main character, someone that stands on bussiness so here is your chance to prove you are not dumb
+            </p>
+
+            <br>
+            
+            <a href="#playnow">Start Quiz</a>
+        </section>
+
+        <br>
+
+        <main class="main">
+            <article id="about">
+                <div class="about-container">
+                    <h2>About Us</h2>
+
+                    <br>
+                    <div class="discription">
+                        <p>
+                            <strong>QuizApp</strong> was made to test my followers IQ. The idea behind this experiment is to separate the <strong>smart</strong> from the <strong>stupid</strong> so people can see where they stand in real life.
+                        </p>
+    
+                        <br>
+    
+                        <p>
+                            Alexander I. Agu is the founder of this website. He releasd this project on the <!-- add release date --> to the whole world giving them the power to test themselves.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <br><br>
+
+            <article id="playnow">
+                <h2 class="playnow-h2">Enter Your Name to start the Quiz</h2>
+
+                <br>
+
+                <div class="name">
+                    <input type="text" placeholder="Please enter your name" id="name">
+                    <button type="button" id="name-btn">Start Quiz</button>
+                </div>
+
+                <br>
+
+                <div class="quiz" id="quiz">
+                    <h2 id="quiz-question"></h2>
+
+                    <br>
+
+                    <div class="choice" id="answer-buttons">
+                        <button class="left-btn btn" id="answer-btn-left">.</button>
+                        <button class="right-btn btn" id="answer-btn-right">.</button>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
