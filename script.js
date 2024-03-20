@@ -110,7 +110,7 @@ document.getElementById("name-btn").onclick = function(){
                             answerButtonsElement.innerHTML = "";
                         }
                         else if(score < 5)    {
-                            questionElement.textContent = name + "Go back to Kindergarden you got " + score + " out of " + questions.length;
+                            questionElement.textContent = name + " Go back to Kindergarden you got " + score + " out of " + questions.length;
                             answerButtonsElement.innerHTML = "";
                         }
                         
