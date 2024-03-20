@@ -24,7 +24,7 @@ const questions = [
         question: "Did Travis deserve to lose the Grammys?",
         answers: [
             { text: "They robbed him", correct: true },
-            { text: "no", correct: false }
+            { text: "Yes", correct: false }
         ]
     },
     {
@@ -58,7 +58,7 @@ const questions = [
     {
         question: "What is 364 days plus 48 months?",
         answers: [
-            { text: "5 Years", correct: false },
+            { text: "4 Years", correct: false },
             { text: "1825 days", correct: true }
         ]
     },
