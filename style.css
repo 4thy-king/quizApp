@@ -209,7 +209,7 @@ p   {
     height: 350px;
     border: 2px solid var(--ABOUT-C);
     padding: var(--HEADER-PAD);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(8px);
     color: var(--ABOUT-C);
     text-shadow: 1px 1px 2px var(--HERO-C);
     text-decoration-color: var();
