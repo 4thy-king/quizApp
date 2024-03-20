@@ -56,7 +56,7 @@ const questions = [
         ]
     },
     {
-        question: "What is 1825 days plus 48 months?",
+        question: "What is 364 days plus 48 months?",
         answers: [
             { text: "5 Years", correct: false },
             { text: "1825 days", correct: true }
